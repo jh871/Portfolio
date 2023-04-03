@@ -7,17 +7,15 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-
 import Button from '@mui/material/Button';
-
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-
+import { Link } from 'react-router-dom';
 
 import './Navbar.css'
 
 // Pages shown in bar and in burger menu
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = ['Skills', 'Projects', 'Contact'];
 
 // Makes appbar responsive by handling burger menu
 function Navbar() {
@@ -90,7 +88,11 @@ function Navbar() {
             >
                 {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">{page}</Typography>
+                    <Typography textAlign="center">
+                        <Link to={`/${page}`}>
+                        {page}
+                        </Link> 
+                    </Typography>
                 </MenuItem>
                 ))}
             </Menu>
@@ -128,7 +130,9 @@ function Navbar() {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
                 >
-                {page}
+                <Link to={`/${page}`}>
+                    {page}
+                </Link> 
                 </Button>
             ))}
             </Box>
