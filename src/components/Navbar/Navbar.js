@@ -130,9 +130,9 @@ function Navbar() {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
                 >
-                <Link to={`/${page}`}>
-                    {page}
-                </Link> 
+                    <Link to={`/${page}`}>
+                        {page}
+                    </Link> 
                 </Button>
             ))}
             </Box>
@@ -143,7 +143,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-
-
-
