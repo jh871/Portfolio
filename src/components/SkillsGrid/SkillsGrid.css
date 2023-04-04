@@ -1,16 +1,21 @@
-.grid-right {
-    background-color: white;
+.sk-grid-right {
+    background-color: black;
     min-height: 627px;
     max-height: 627px;
 }
 
-.grid-left {
+.sk-grid-left {
     min-height: 627px;
     max-height: 627px;
 }
 
+.sk-left-panel {
+    padding: 0;
+    border: none;
+    margin: 0;
+}
 
-.left-panel {
+.sk-right-panel {
     padding: 0;
     border: none;
     margin: 0;

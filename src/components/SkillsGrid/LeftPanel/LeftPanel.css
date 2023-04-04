@@ -1,0 +1,69 @@
+/*Colour palettes: 
+#B7094C #A01A58 #892B64 #723C70 #5C4D7D #455E89 #2E6F95 #1780A1 #0091ad
+*/
+
+
+.stack-box {
+    margin: 0%;
+    padding: 0px;
+}
+
+.stack-div {
+    padding: 0px;
+    min-height: 2rem;
+    border-radius: 0%;
+}
+.div-1 {
+    border-radius: 0%;
+    background-color: #B7094C;
+    min-height: 6rem;
+}
+.div-2{
+    border-radius: 0%;
+    background-color: #A01A58;
+    min-height: 4.5rem;
+}
+.div-3{
+    border-radius: 0%;
+    background-color: #892B64;
+    min-height: 2.5rem;
+}
+.div-4 {
+    border-radius: 0%;
+    background-color: #723C70;
+    min-height: 6rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.div-5 {
+    border-radius: 0%;
+    background-color: #5C4D7D;
+    min-height: 4rem;
+}
+.div-6 {
+    border-radius: 0%;
+    background-color: #455E89;
+    min-height: 5rem;
+}
+.div-7 {
+    border-radius: 0%;
+    background-color: #2E6F95;
+    min-height: 2rem;
+}
+.div-8 {
+    border-radius: 0%;
+    background-color: #1780A1;
+    min-height: 2rem;
+}
+.div-9 {
+    border-radius: 0%;
+    background-color: #0091ad;
+    min-height: 1rem;
+}
+
+.header-left {
+    color: rgb(0, 0, 0);
+    font-size: 5rem;
+    font-family: 'Tourney';
+    padding-right: 20px;
+}

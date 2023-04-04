@@ -1,10 +1,10 @@
-
+import SkillsGrid from '../../components/SkillsGrid/SkillsGrid';
 import './Skills.css'
 
 function Skills() {
     return ( 
     <>
-        <h1>Skills</h1>
+        <SkillsGrid />
     </> 
     );
 }
