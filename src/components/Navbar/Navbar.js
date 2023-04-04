@@ -9,8 +9,19 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
+// import AdbIcon from '@mui/icons-material/Adb';
 import { Link } from 'react-router-dom';
+import BubbleChartIcon from '@mui/icons-material/BubbleChart';
+
+import './Navbar.css'
+
+
+
+//trying to import FA icons
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { fab } from '@fortawesome/free-brands-svg-icons'
+// import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 import './Navbar.css'
 
@@ -24,40 +35,39 @@ function Navbar() {
     const handleOpenNavMenu = (event) => {
         setAnchorElNav(event.currentTarget);
     };
-    
     const handleCloseNavMenu = () => {
         setAnchorElNav(null);
     };
 
-
     return ( 
-        <AppBar position="static">
-            <Container maxWidth="xl">
+        <AppBar position="static" >
+            <Container maxWidth="xl" className='appbar'>
                 <Toolbar disableGutters>
-
                     {/*fullscreen: Icon and word 'Logo'*/}
-                    <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+                    {/* <FontAwesomeIcon icon={faCoffee} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1}} /> */}
+                    <BubbleChartIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, fontSize: '3rem'}} />
                     <Typography
                     variant="h6"
                     noWrap
-                    component="a"
+                    component="a" //a element tag
                     href="/"
                     sx={{
                     mr: 2,
                     display: { xs: 'none', md: 'flex' }, //dont display when screen tiny
-                    fontFamily: 'monospace',
-                    fontWeight: 700,
-                    letterSpacing: '.3rem',
-                    color: 'inherit',
+                    fontFamily: 'Tourney',
+                    fontSize: '2rem',
+                    // fontWeight: 400,
+                    // letterSpacing: '.3rem',
+                    color: 'white',
                     textDecoration: 'none',
                     }}
                     >
-                    LOGO
+                    Jen Hull
                     </Typography>
 
 
 {/*this box is the hamburger menu: */}
-        <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+        <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none', } }} className='burger-box'>
             <IconButton     //hamburger icon
                 size="large"
                 aria-label="account of current user"
@@ -65,6 +75,7 @@ function Navbar() {
                 aria-haspopup="true"
                 onClick={handleOpenNavMenu}
                 color="inherit"
+                className='menu-icon'
             >
                 <MenuIcon />
             </IconButton>
@@ -88,8 +99,8 @@ function Navbar() {
             >
                 {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">
-                        <Link to={`/${page}`}>
+                    <Typography textAlign="center" className='xs-menu'>
+                        <Link to={`/${page}`} className='xs-link'>
                         {page}
                         </Link> 
                     </Typography>
@@ -100,37 +111,36 @@ function Navbar() {
 
 
             {/*stops icon displaying when big screen: */}
-            <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> 
+            <BubbleChartIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1, fontSize: '2rem' }} /> 
 
             {/* Logo just for mobile: */}
             <Typography
             variant="h5"
             noWrap
             component="a"
-            href=""
+            href="/"
             sx={{
                 mr: 2,
                 display: { xs: 'flex', md: 'none' },
                 flexGrow: 1,
-                fontFamily: 'monospace',
-                fontWeight: 700,
-                letterSpacing: '.3rem',
+                fontFamily: 'Tourney',
                 color: 'inherit',
                 textDecoration: 'none',
             }}
             >
-            LOGO
+            Jen Hull
             </Typography>
 
             {/*Fullscreen menu items: */}
-            <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+            <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }} className='fs-box'>
             {pages.map((page) => (
                 <Button
                 key={page}
                 onClick={handleCloseNavMenu}
+                className='fs-buttons'
                 sx={{ my: 2, color: 'white', display: 'block' }}
                 >
-                    <Link to={`/${page}`}>
+                    <Link to={`/${page}`} className="fs-links">
                         {page}
                     </Link> 
                 </Button>
