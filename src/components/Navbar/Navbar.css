@@ -1,0 +1,33 @@
+.appbar {
+    background-color: rgb(0, 152, 190);
+}
+
+.fs-box {
+    display: flex; 
+    justify-content: flex-end;
+}
+
+.fs-links {
+    text-decoration: none;
+    margin: 0px 3px;
+    color: black;
+    font-size: 1rem;
+    border: 3px solid black;
+    padding: 5px 10px;
+}
+
+button.fs-buttons {
+    padding: 0px;
+    border-radius: 0%;
+}
+
+/* these two disappear when clicking elsewhere on page so may need handleclick to add class for styling*/
+.fs-links:focus {
+    background-color: rgb(43, 0, 83);
+    color: white;
+}
+
+.fs-links:active {
+    background-color: rgb(43, 0, 83);
+    color: white;
+}
