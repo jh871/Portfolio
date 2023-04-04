@@ -5,6 +5,7 @@
 .xs-link {
     color: rgb(0, 0, 0);
     text-decoration: none;
+    font-family: 'Familjen Grotesk';
 }
 .xs-link:hover {
     background-color: black;
