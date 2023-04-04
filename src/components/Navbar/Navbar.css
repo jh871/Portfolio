@@ -1,5 +1,20 @@
 .appbar {
-    background-color: rgb(0, 152, 190);
+    background-color: rgb(0, 0, 0);
+}
+
+.xs-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.xs-link:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.xs-link:active {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 .fs-box {
@@ -8,20 +23,25 @@
 }
 
 .fs-links {
+    
     text-decoration: none;
+    font-family: 'Familjen Grotesk';
+    font-size: 1.4rem;
     margin: 0px 3px;
     color: black;
-    font-size: 1rem;
     border: 3px solid black;
     padding: 5px 10px;
+    transition: none;
 }
 
 button.fs-buttons {
+    max-width:fit-content;
     padding: 0px;
     border-radius: 0%;
+    transition: none;
 }
 
-/* these two disappear when clicking elsewhere on page so may need handleclick to add class for styling*/
+/* these three disappear when clicking elsewhere on page so need handleclick to add class for styling*/
 .fs-links:focus {
     background-color: rgb(43, 0, 83);
     color: white;
@@ -31,3 +51,36 @@ button.fs-buttons {
     background-color: rgb(43, 0, 83);
     color: white;
 }
+.fs-links:visited {
+    background-color: rgb(43, 0, 83);
+    color: white;
+}
+
+
+
+/*
+font slection: https://fonts.google.com/share?selection.family=Anybody:wght@300;400%7CBungee%20Outline%7CFamiljen%20Grotesk:ital,wght@0,400;1,400;1,600%7CJacques%20Francois%20Shadow%7CLondrina%20Sketch%7COrelega%20One%7CTourney:ital,wght@0,400;0,800;1,400%7CZen%20Tokyo%20Zoo
+Body Fonts: [pref. familijen]
+font-family: 'Anybody', cursive;
+font-family: 'Familjen Grotesk', sans-serif;
+
+Header Fonts:
+very fancy:
+font-family: 'Jacques Francois Shadow', cursive;
+
+Sketch-type:
+font-family: 'Londrina Sketch', cursive;
+
+Headline:
+font-family: 'Orelega One', cursive;
+
+Also in 400italic and 800:
+font-family: 'Tourney', cursive;
+
+All caps but diif size for cases:
+font-family: 'Zen Tokyo Zoo', cursive;
+
+
+Outline, all caps:
+font-family: 'Bungee Outline', cursive;
+*/

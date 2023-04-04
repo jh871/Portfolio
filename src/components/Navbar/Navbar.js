@@ -45,7 +45,7 @@ function Navbar() {
                 <Toolbar disableGutters>
                     {/*fullscreen: Icon and word 'Logo'*/}
                     {/* <FontAwesomeIcon icon={faCoffee} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1}} /> */}
-                    <BubbleChartIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1}} />
+                    <BubbleChartIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, fontSize: '3rem'}} />
                     <Typography
                     variant="h6"
                     noWrap
@@ -54,10 +54,11 @@ function Navbar() {
                     sx={{
                     mr: 2,
                     display: { xs: 'none', md: 'flex' }, //dont display when screen tiny
-                    fontFamily: 'monospace',
-                    fontWeight: 700,
-                    letterSpacing: '.3rem',
-                    color: 'inherit',
+                    fontFamily: 'Tourney',
+                    fontSize: '2rem',
+                    // fontWeight: 400,
+                    // letterSpacing: '.3rem',
+                    color: 'white',
                     textDecoration: 'none',
                     }}
                     >
@@ -66,14 +67,15 @@ function Navbar() {
 
 
 {/*this box is the hamburger menu: */}
-        <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+        <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none', } }} className='burger-box'>
             <IconButton     //hamburger icon
                 size="large"
                 aria-label="account of current user"
                 aria-controls="menu-appbar"
                 aria-haspopup="true"
                 onClick={handleOpenNavMenu}
-                color="white"
+                color="inherit"
+                className='menu-icon'
             >
                 <MenuIcon />
             </IconButton>
@@ -97,8 +99,8 @@ function Navbar() {
             >
                 {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">
-                        <Link to={`/${page}`}>
+                    <Typography textAlign="center" className='xs-menu'>
+                        <Link to={`/${page}`} className='xs-link'>
                         {page}
                         </Link> 
                     </Typography>
