@@ -1,0 +1,39 @@
+[
+    {
+        "src": "./utils/images/spark_snippetthumbnail.png",
+        "title": "Spark",
+        "rows": 1,
+        "cols": 4
+    },
+    {
+        "src": "../utils/images/codequiz_snippet.png",
+        "title": "Code Quiz",
+        "rows": 1,
+        "cols": 2
+
+    },
+    {
+        "src": "../utils/images/team-profile-gen_snippet.png",
+        "title": "Team Profile Generator",
+        "rows": 1,
+        "cols": 2
+    },
+    {
+        "src": "../utils/images/PokeQuiz_snippet.png",
+        "title": "PokéQuiz",
+        "rows": 1,
+        "cols": 4
+    },
+    {
+        "src": "../utils/images/JHull-bootstrap_portfolio_snippet.png",
+        "title": "Bootstrap Portfolio",
+        "rows": 1,
+        "cols": 2
+    },
+    {
+        "src": "../utils/images/dayplanner_snippet.png",
+        "title": "Work Day Planner",
+        "rows": 1,
+        "cols": 2
+    }
+]

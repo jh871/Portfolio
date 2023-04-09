@@ -1,0 +1,22 @@
+.sk-grid-right {
+    background-color: black;
+    min-height: 627px;
+    max-height: 627px;
+}
+
+.sk-grid-left {
+    min-height: 627px;
+    max-height: 627px;
+}
+
+.sk-left-panel {
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+
+.sk-right-panel {
+    padding: 0;
+    border: none;
+    margin: 0;
+}
