@@ -1,10 +1,10 @@
-
+import ProjectsGrid from '../../components/ProjectsGrid/ProjectsGrid';
 import './Projects.css'
 
 function Projects() {
     return ( 
     <>
-        <h1>Projects</h1>
+        <ProjectsGrid />
     </> 
     );
 }
