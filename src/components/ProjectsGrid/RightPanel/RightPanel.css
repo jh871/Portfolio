@@ -3,7 +3,13 @@ font-family: 'Familjen Grotesk';
 font-family: 'Tourney';
 */
 
-.skills-div {
+
+.img-list-div {
+    display: flex;
+    justify-content: center;
+}
+
+/* .skills-div {
     color: white;
     padding: 3% 9%;
     padding-bottom: 0;
@@ -11,21 +17,21 @@ font-family: 'Tourney';
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-}
+} */
 
-.skill-type {
+/* .skill-type {
     font-family: 'Tourney';
     font-size: 2rem;
     margin: 0;
     padding-bottom: 2%;
     min-width: 350px;
     border-bottom: 3px solid white;
-}
+} */
 
 
-.skill-content {
+/* .skill-content {
     font-family: 'Familjen Grotesk';
     font-size: 1.2rem;
     margin: 0.6rem;
     margin-bottom: 1.4rem;
-}
+} */

@@ -11,13 +11,13 @@ import './ProjectsGrid.css'
 function ProjectsGrid() {
     return (
     <Grid container spacing={0}>
-        <Grid className='sk-grid-left' item md={5} >
-            <div className='sk-left-panel'>
+        <Grid className='pr-grid-left' item md={5} >
+            <div className='pr-left-panel'>
                 <BasicStack />
             </div>
         </Grid>
-        <Grid className='sk-grid-right' item xs={12} md={7} >
-            <div className='sk-right-panel'>
+        <Grid className='pr-grid-right' item xs={12} md={7} >
+            <div className='pr-right-panel'>
                 <RightPanel />
             </div>
         </Grid>
