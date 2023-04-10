@@ -1,10 +1,10 @@
-
+import ContactGrid from '../../components/ContactGrid/ContactGrid';
 import './Contact.css'
 
 function Contact() {
     return ( 
     <>
-        <h1>Contact</h1>
+        <ContactGrid />
     </>
     );
 }

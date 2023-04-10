@@ -1,0 +1,64 @@
+.grid-right {
+    background-color: rgb(0, 0, 0);
+    min-height: 627px;
+    max-height: 627px;
+}
+
+.grid-left {
+    min-height: 627px;
+    max-height: 627px;
+}
+
+
+.left-panel {
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+
+
+
+
+/*Media queries to keep heading styles*/
+.reduced-header {
+    display: none;
+}
+
+@media only screen and (max-width: 880px) {
+    .reduced-header {
+        min-height: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #723C70;
+        color: rgb(0, 0, 0);
+        font-family: 'Tourney';
+        margin: 0;
+        text-align: center;
+    }
+    .reduced-header-text {
+        font-size: 3rem;
+        margin: 5px;
+    }
+    .color-stripe-1 {
+        min-height: 0.8rem;
+        min-width: 100%;
+        background-color: #B7094C;
+    }
+    .color-stripe-2 {
+        min-height: 1.2rem;
+        min-width: 100%;
+        background-color: #892B64;
+    }
+    .color-stripe-3 {
+        min-height: 1.4rem;
+        min-width: 100%;
+        background-color: #455E89;
+    }
+    .color-stripe-4 {
+        min-height: 0.8rem;
+        min-width: 100%;
+        background-color: #0091ad;
+    }
+}
