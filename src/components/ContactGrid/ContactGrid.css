@@ -1,16 +1,16 @@
-.grid-right {
+.ct-grid-right {
     background-color: rgb(0, 0, 0);
     min-height: 627px;
     max-height: 627px;
 }
 
-.grid-left {
+.ct-grid-left {
     min-height: 627px;
     max-height: 627px;
 }
 
 
-.left-panel {
+.ct-left-panel {
     padding: 0;
     border: none;
     margin: 0;
