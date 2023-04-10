@@ -6,6 +6,7 @@
         "skills": "React",
         "repo": "https://github.com/ExxtremeBattler/spark-project",
         "deployed": "https://soft-longma-6bf6bc.netlify.app/",
+        "description": "A creativity prompt generator for writerrs, artists and coders",
         "rows": 1,
         "cols": 4
     },
@@ -16,6 +17,7 @@
         "skills": "JavaScript",
         "repo": "https://github.com/jh871/Code-Quiz",
         "deployed": "https://jh871.github.io/Code-Quiz/",
+        "description": "A timed quiz on Javascript basics that saves user scores",
         "rows": 1,
         "cols": 2
     },
@@ -26,6 +28,7 @@
         "skills": "Node.js",
         "repo": "https://github.com/jh871/Team-Profile-Generator",
         "deployed": "Runs in CLI",
+        "description": "An application prompts the user for info, then generates a HTML page team profile",
         "rows": 1,
         "cols": 2
     },
@@ -36,6 +39,7 @@
         "skills": "JavaScript",
         "repo": "https://github.com/eliza-an/pokepod-pokemon-quiz",
         "deployed": "https://eliza-an.github.io/pokepod-pokemon-quiz/",
+        "description": "a fun personality quiz that matches you to a pokémon",
         "rows": 1,
         "cols": 4
     },
@@ -46,6 +50,7 @@
         "skills": "Bootstrap CSS",
         "repo": "https://github.com/jh871/Bootstrap-Portfolio",
         "deployed": "https://jh871.github.io/Bootstrap-Portfolio/",
+        "description": "A professional portfolio styled with bootstrap",
         "rows": 1,
         "cols": 2
     },
@@ -56,6 +61,7 @@
         "skills": "JQuery",
         "repo": "https://github.com/jh871/Daily-Planner-App",
         "deployed": "https://jh871.github.io/Daily-Planner-App/",
+        "description": "A daily planner app with local storage to let the user plan a work day",
         "rows": 1,
         "cols": 2
     }
