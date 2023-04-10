@@ -1,8 +1,9 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
-import IconButton from '@mui/material/IconButton';
+// import IconButton from '@mui/material/IconButton';
 import PreviewIcon from '@mui/icons-material/Preview';
 import './RightPanel.css'
 
@@ -44,11 +45,10 @@ export default function RightPanel() {
                 title={item.title}
                 subtitle={item.skills}
                 actionIcon={
-                <IconButton
-                    sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
+                <Link to={`/projects/${item.id}`}
                 >
                     <PreviewIcon />
-                </IconButton>
+                </Link>
                 }
                 />
             </ImageListItem> 
