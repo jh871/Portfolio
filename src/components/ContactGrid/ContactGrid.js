@@ -11,7 +11,7 @@ import './ContactGrid.css'
 function ContactGrid() {
     return (
     <Grid container spacing={0}>
-        <Grid className='ct-grid-left' sm={6} md={5} sx={{ display: { xs: 'none', md: 'block' } }}>
+        <Grid className='ct-grid-left' item sm={6} md={5} sx={{ display: { xs: 'none', md: 'block' } }}>
             <div className='ct-left-panel'>
                 <BasicStack />
             </div>

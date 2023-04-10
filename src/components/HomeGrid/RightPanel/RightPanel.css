@@ -41,3 +41,23 @@
 .more-item {
     font-size: 1.2rem;
 }
+
+
+@media only screen and (max-width: 880px) {
+    .intro-header {
+        font-size: 1.6rem;
+    }
+    .home-text {
+        font-size: 1rem;
+    }
+    .text-div {
+        padding: 0% 5%;
+    max-height: 500px; 
+    }
+    .more-label {
+        margin-top: 3px;
+    }
+    .learn-more {
+        max-height:30px;
+    }
+}

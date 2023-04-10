@@ -3,3 +3,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+Footer {
+  flex-grow: 1;
+}
