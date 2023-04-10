@@ -14,12 +14,12 @@ function RightPanel() {
         <div className='github-div contact-item'>
         <h1 className='link-title'>GitHub</h1> 
             <h2 className='contact-content'> <GitHubIcon className='contact-icon' /> 
-            <a className='link' href='https://github.com/jh871' target='_blank' rel="noreferrer">github.com/jh871</a> </h2>
+            <a className='link' href='https://github.com/jh871' target='_blank' rel="noreferrer"> /jh871</a> </h2>
         </div>
         <div className='linkedin-div contact-item'> 
         <h1 className='link-title'>LinkedIn</h1> 
             <h2 className='contact-content'> <LinkedInIcon className='contact-icon' /> 
-            <a className='link' href='https://www.linkedin.com/in/jenniferhull01/' target='_blank' rel="noreferrer">linkedin.com/in/jenniferhull01 </a> </h2>
+            <a className='link' href='https://www.linkedin.com/in/jenniferhull01/' target='_blank' rel="noreferrer"> /jenniferhull01 </a> </h2>
         </div>
     </div>
     );

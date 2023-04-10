@@ -26,7 +26,7 @@ export default function RightPanel() {
         {/* Image list container */}
         <ImageList
             className='img-list'
-            sx={{ width: 490, height: 580 }}
+            sx={{ width: 490, height: '500' }}
             variant="quilted"
             cols={4}
             rowHeight={140}
@@ -44,10 +44,12 @@ export default function RightPanel() {
                 <ImageListItemBar
                 title={item.title}
                 subtitle={item.skills}
+                sx={{fontFamily: 'Familjen Grotesk', backgroundColor: 'rgba(0, 0, 0, 0.8)'}}
                 actionIcon={
                 <Link to={`/projects/${item.id}`}
+                className='icon-link'
                 >
-                    <PreviewIcon />
+                    <PreviewIcon className='prev-icon' />
                 </Link>
                 }
                 />
