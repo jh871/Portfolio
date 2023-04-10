@@ -20,7 +20,7 @@ function HomeGrid() {
             <div className='reduced-header'>
                 <div className='color-stripe-1'> </div>
                 <div className='color-stripe-2'> </div>
-                <h1 className='reduced-header-text'>Home</h1>
+                <h1 className='reduced-header-text'>Welcome</h1>
                 <div className='color-stripe-3'> </div>
                 <div className='color-stripe-4'> </div>
             </div>
