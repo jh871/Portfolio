@@ -1,7 +1,7 @@
 [
     {
         "img": "/images/spark_snippetthumbnail.png",
-        "id": 1,
+        "id": "1",
         "title": "Spark",
         "skills": "React",
         "repo": "https://github.com/ExxtremeBattler/spark-project",
@@ -12,7 +12,7 @@
     },
     {
         "img": "/images/codequiz_snippet.png",
-        "id": 2,
+        "id": "2",
         "title": "Code Quiz",
         "skills": "JavaScript",
         "repo": "https://github.com/jh871/Code-Quiz",
@@ -23,7 +23,7 @@
     },
     {
         "img": "/images/team-profile-gen_snippet.png",
-        "id": 3,
+        "id": "3",
         "title": "Team Profile Generator",
         "skills": "Node.js",
         "repo": "https://github.com/jh871/Team-Profile-Generator",
@@ -34,7 +34,7 @@
     },
     {
         "img": "/images/PokeQuiz_snippet.png",
-        "id": 4,
+        "id": "4",
         "title": "PokéQuiz",
         "skills": "JavaScript",
         "repo": "https://github.com/eliza-an/pokepod-pokemon-quiz",
@@ -45,7 +45,7 @@
     },
     {
         "img": "/images/JHull-bootstrap_portfolio_snippet.png",
-        "id": 5,
+        "id": "5",
         "title": "Bootstrap Portfolio",
         "skills": "Bootstrap CSS",
         "repo": "https://github.com/jh871/Bootstrap-Portfolio",
@@ -56,7 +56,7 @@
     },
     {
         "img": "/images/dayplanner_snippet.png",
-        "id": 6,
+        "id": "6",
         "title": "Work Day Planner",
         "skills": "JQuery",
         "repo": "https://github.com/jh871/Daily-Planner-App",

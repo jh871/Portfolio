@@ -15,7 +15,7 @@ function IndvProjectGrid(props) {
         </Grid>
         <Grid className='ipr-grid-right' item xs={12} md={7} >
             <div className='ipr-right-panel'>
-                <RightPanel id={props.id}/>
+                <RightPanel />
             </div>
         </Grid>
     </Grid>
