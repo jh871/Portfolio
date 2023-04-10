@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 import './RightPanel.css'
 
 function RightPanel() {
@@ -21,9 +21,9 @@ function RightPanel() {
                 <h3 className='more-label'>Learn more:</h3>
                 <div className='learn-more'>
                     <h3 className='cv more-item'> CV </h3>
-                    <h3 className='skills more-item'>Skills</h3>
-                    <h3 className='projects more-item'>Projects</h3>
-                    <h3 className='contact more-item'>Contact</h3>
+                    <Link to='/skills'> <h3 className='skills more-item'>Skills</h3></Link>
+                    <Link to='/projects'><h3 className='projects more-item'>Projects</h3></Link> 
+                    <Link to='/contact'> <h3 className='contact more-item'>Contact</h3></Link>
                 </div>
         </div>
     </div>
