@@ -40,6 +40,16 @@
 
 .more-item {
     font-size: 1.2rem;
+    
+}
+
+.home-link {
+    text-decoration: none;
+    color: #A01A58;
+}
+
+.home-link:hover {
+    color: #1780A1;
 }
 
 
