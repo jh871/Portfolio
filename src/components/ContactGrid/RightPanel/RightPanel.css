@@ -9,7 +9,7 @@
 }
 
 .contact-item {
-    padding: 0px 20px;
+    padding: 3% 6%;
 }
 
 .contact-content {
@@ -19,6 +19,10 @@
     justify-content: center;
     font-family: 'Familjen Grotesk';
     color: #0091ad;
+    text-decoration: none;
+}
+
+.link {
     text-decoration: none;
 }
 

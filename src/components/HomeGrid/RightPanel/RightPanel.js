@@ -4,7 +4,8 @@ import './RightPanel.css'
 function RightPanel() {
     return ( 
     <div className="intro-div">
-        <h1 className="intro-header">Hi, I'm Jen. <br /><br /> I do front-end web development.</h1>
+        <h1 className="intro-header">Hi, I'm Jen. <br />
+        I do front-end web development.</h1>
         <div className='text-div'>
             <p className="home-text">
                 I enjoy designing and building web page applications with JavaScript and React. After completing a skills certificate in Front-End web dev I am currently working on additional projects. 

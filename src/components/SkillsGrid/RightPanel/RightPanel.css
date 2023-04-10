@@ -18,7 +18,8 @@ font-family: 'Tourney';
     font-size: 2rem;
     margin: 0;
     padding-bottom: 2%;
-    min-width: 350px;
+    min-width: 250px;
+    max-width: 250px;
     border-bottom: 3px solid white;
 }
 
