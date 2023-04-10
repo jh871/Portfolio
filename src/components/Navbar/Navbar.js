@@ -23,10 +23,42 @@ import './Navbar.css'
 // import { fab } from '@fortawesome/free-brands-svg-icons'
 // import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 
-import './Navbar.css'
+// import './Navbar.css'
 
 // Pages shown in bar and in burger menu
 const pages = ['Skills', 'Projects', 'Contact'];
+
+const SmTypSX = {
+    mr: 2,
+    display: { xs: 'flex', md: 'none' },
+    flexGrow: 1,
+    fontFamily: 'Tourney',
+    color: 'white',
+    textDecoration: 'none',
+    '&:hover': {
+        color: '#0091ad'
+    },
+    '&:active': {
+        color: '#A01A58'
+    }
+}
+
+const TypSX = {
+    mr: 2,
+    display: { xs: 'none', md: 'flex' }, //dont display when screen tiny
+    fontFamily: 'Tourney',
+    fontSize: '2rem',
+    // fontWeight: 400,
+    // letterSpacing: '.3rem',
+    color: 'white',
+    textDecoration: 'none',
+    '&:hover': {
+        color: '#0091ad'
+    },
+    '&:active': {
+        color: '#A01A58'
+    }
+}
 
 // Makes appbar responsive by handling burger menu
 function Navbar() {
@@ -51,16 +83,7 @@ function Navbar() {
                     noWrap
                     component="a" //a element tag
                     href="/"
-                    sx={{
-                    mr: 2,
-                    display: { xs: 'none', md: 'flex' }, //dont display when screen tiny
-                    fontFamily: 'Tourney',
-                    fontSize: '2rem',
-                    // fontWeight: 400,
-                    // letterSpacing: '.3rem',
-                    color: 'white',
-                    textDecoration: 'none',
-                    }}
+                    sx={TypSX}
                     >
                     Jen Hull
                     </Typography>
@@ -119,14 +142,8 @@ function Navbar() {
             noWrap
             component="a"
             href="/"
-            sx={{
-                mr: 2,
-                display: { xs: 'flex', md: 'none' },
-                flexGrow: 1,
-                fontFamily: 'Tourney',
-                color: 'inherit',
-                textDecoration: 'none',
-            }}
+            className='title-typ'
+            sx={SmTypSX}
             >
             Jen Hull
             </Typography>
