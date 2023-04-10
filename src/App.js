@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer';
 import Skills from './pages/Skills/Skills';
 import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
+import IndvProject from './pages/IndvProject/IndvProject';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/projects/:id" element={<IndvProject />} />
       </Routes>
       <Footer />
     </body>

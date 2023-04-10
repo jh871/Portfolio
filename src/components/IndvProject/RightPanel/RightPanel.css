@@ -1,0 +1,43 @@
+.intro-div {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: center;
+}
+
+.intro-header {
+    font-family: 'Tourney';
+    font-size: 2.2rem;
+    padding: 7% 7%;
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+.text-div {
+    padding: 0% 10%;
+    max-height: 500px;
+}
+
+.home-text {
+    font-family: 'Familjen Grotesk';
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+}
+
+.more-label {
+    font-family: 'Tourney';
+    margin-bottom: 0px;
+}
+
+.learn-more {
+    font-family: 'Familjen Grotesk';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.more-item {
+    font-size: 1.2rem;
+}
