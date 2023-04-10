@@ -3,35 +3,26 @@ font-family: 'Familjen Grotesk';
 font-family: 'Tourney';
 */
 
-
 .img-list-div {
     display: flex;
     justify-content: center;
+    font-family: 'Familjen Grotesk';
 }
 
-/* .skills-div {
+.icon-link {
     color: white;
-    padding: 3% 9%;
-    padding-bottom: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-} */
-
-/* .skill-type {
-    font-family: 'Tourney';
-    font-size: 2rem;
-    margin: 0;
-    padding-bottom: 2%;
-    min-width: 350px;
-    border-bottom: 3px solid white;
-} */
+}
+.icon-link:hover {
+    color: #0091ad;
+}
+.icon-link:visited {
+    color: white;
+}
 
 
-/* .skill-content {
-    font-family: 'Familjen Grotesk';
-    font-size: 1.2rem;
-    margin: 0.6rem;
-    margin-bottom: 1.4rem;
-} */
+
+@media only screen and (max-width: 880px) {
+    .img-list-div {
+        max-height: 500px;
+    }
+}

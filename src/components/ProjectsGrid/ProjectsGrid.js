@@ -11,12 +11,19 @@ import './ProjectsGrid.css'
 function ProjectsGrid() {
     return (
     <Grid container spacing={0}>
-        <Grid className='pr-grid-left' item md={5} >
+        <Grid className='pr-grid-left' item md={5} sx={{ display: { xs: 'none', md: 'block' } }} >
             <div className='pr-left-panel'>
                 <BasicStack />
             </div>
         </Grid>
         <Grid className='pr-grid-right' item xs={12} md={7} >
+            <div className='reduced-header'>
+                <div className='color-stripe-1'> </div>
+                <div className='color-stripe-2'> </div>
+                <h1 className='reduced-header-text'>Projects</h1>
+                <div className='color-stripe-3'> </div>
+                <div className='color-stripe-4'> </div>
+            </div>
             <div className='pr-right-panel'>
                 <RightPanel />
             </div>
