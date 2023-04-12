@@ -27,7 +27,7 @@
         "title": "Team Profile Generator",
         "skills": "Node.js",
         "repo": "https://github.com/jh871/Team-Profile-Generator",
-        "deployed": "Runs in CLI",
+        "disclaimer": "No deployment, runs in CLI",
         "description": "An application prompts the user for info, then generates a HTML page team profile",
         "rows": 1,
         "cols": 2

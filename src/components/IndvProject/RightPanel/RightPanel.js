@@ -43,6 +43,7 @@ function RightPanel() {
                             <Link to={project.deployed} className='live-link' target="_blank"> 
                             {project.deployed} 
                             </Link>
+                            {project.disclaimer}
                         </div>
                     </Grid>
                     <Grid item xs={12} sm={12} md={12}>
