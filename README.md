@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Jen Hull: Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Professional Portfolio.
+https://j-hull.netlify.app/
 
-## Available Scripts
 
-In the project directory, you can run:
+### Contents:
+1. [Description](#description)
+2. [Installation/Usage](#installation--usage)
+3. [Development](#development)
+4. [Future-Development](#future-development)
+5. [Credits/Resources](#creditsresources)
+6. [License](#license)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-------
+## Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This is a single-page application built with React. The app features pages giving an introduction to me, a list of my skills, projects I have worked on and some contact information. 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-------
+## Installation / Usage
 
-### `npm run build`
+This app can viewed in browser on desktop or mobile.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-------
+## Development
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This app was created with create-react-app, and built with JSX JavaScript. It was styled using Mui core components and CSS including some media queries, along with Google Fonts. Navigation is implemented using React Router. It is deployed on Netlify. I also used pre-deployment checks on each pull request on GitHub to stop any issues interfering with deployment.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-------
+## Future Development
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+I would like to learn Framer Motion to add some animation - transitions on page changes might be nice. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+I would like to restyle the skills page to look more interesting or be interactive - same with the contact info page. The contact info page could also benefit from a contact form.
 
-## Learn More
+I originally wanted each individual project to open in a modal but had trouble getting this to work so could take another run at this sometime.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+I would like to replace using Create React App with using NextJs.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+-------
+## Credits/Resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+- Fonts: https://fonts.google.com/ - Headers: Tourney; Body: Familjen Grotesk;
+- Colour palette: https://coolors.co/palettes/trending
+- Styling components: https://mui.com/material-ui/getting-started/overview/ - AppBar, Grid, Image List
+- Icons: https://mui.com/material-ui/material-icons/
+- React Router: https://yarnpkg.com/package/react-router-dom
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+-------
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+No license was selected for this project.
